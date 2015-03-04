@@ -22,7 +22,7 @@ lines(subsetted$Sub_metering_2, type="o", pch=46, lty=1,
 lines(subsetted$Sub_metering_3, type="o", pch=46, lty=1, 
       col="Blue")
 axis(1,at= v1, labels = v2)
-legend("topright",c("Submetering_1","Submetering_2","Submetering_3"), 
+legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), 
        lty = c(1,1,1),lwd = c(1,1,1),col = c("black","red","blue"), bty = "n")
 plot(subsetted$Global_reactive_power,ylab = "Global_Reactive_Power", xlab = "datetime", 
      type = "l", xaxt = "n")
