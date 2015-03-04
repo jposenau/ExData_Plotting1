@@ -21,7 +21,7 @@ axis(1,at= v1, labels = v2)
 plot(subsetted$Voltage,ylab = "Voltage", 
      xlab = "datetime", type = "l", xaxt = "n")
 axis(1,at= v1, labels = v2)
-plot(subsetted$Sub_metering_1,ylab = "Energy sub metering", xlab = "", type = "l", xaxt = "n", main = "Plot 4", adj = 0)
+plot(subsetted$Sub_metering_1,ylab = "Energy sub metering", xlab = "", type = "l", xaxt = "n")
 lines(subsetted$Sub_metering_2, type="o", pch=46, lty=1, 
       col="Red")
 lines(subsetted$Sub_metering_3, type="o", pch=46, lty=1, 
